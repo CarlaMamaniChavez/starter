@@ -55,6 +55,26 @@ Para ingestar los datos te proporciono un par de ejemplos 🐕
 [CATALOGO  MASCOTAS.pdf](https://github.com/user-attachments/files/16056940/CATALOGO.MASCOTAS.pdf)
 
 # Implementación de backend con PostgreSQL y Azure SQL Database en Azure
+👉 Ingresamos al portal de Azure
+🔗 [Portal Azure](https://portal.azure.com/) 
+> 🚨 Si no posees una cuenta en Azure puedes optar por estas opciones:
+> - [Crear un cuenta gratuita](https://azure.microsoft.com/es-es/free#all-free-services)
+> - [Obtener una cuenta gratuita si eres estudiante](https://github.com/edu/students)
+
+🛰️ Buscar en el marketplace Servidores flexibles de Azure Database for PostgreSQL
+![image](https://github.com/CarlaMamaniChavez/starter/assets/66276312/0a0f1c09-e0f9-46b8-befb-3ac315ef890f)
+
+🛰️ Detalles basicos de la implementacion
+![image](https://github.com/CarlaMamaniChavez/starter/assets/66276312/8952592b-b5cd-44d2-9798-595ac0288906)
+
+🛰️ Detalles del tipo de autentificacion
+![image](https://github.com/CarlaMamaniChavez/starter/assets/66276312/ccb9614a-afb3-4190-89b5-7bd43f28ac9c)
+
+🛰️ Agregamos a nuestro firewal nuestra IP Publica (Solo para fines de ejemplo) en caso de implementarlo en produccion establecer reglas de seguridad.
+![image](https://github.com/CarlaMamaniChavez/starter/assets/66276312/f32c857c-7554-45a2-89cd-252fe19073e0)
+
+🛰️ Revisar y crear para posteriormente empezar con la implementación
+![image](https://github.com/CarlaMamaniChavez/starter/assets/66276312/452fc6f2-9c5f-47ac-a7be-65b532bfd1b6)
 
 
 # Implementación de frontend con Azure App Services en Azure
