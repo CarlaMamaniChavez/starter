@@ -7,9 +7,22 @@ En esta demo exploraremos cómo hospedar instancias de bases de datos en entorno
 # Arquitectura
 ![Web Site en Azure drawio](https://github.com/CarlaMamaniChavez/starter/assets/66276312/71e1360c-4fb5-4635-8aee-a0d1cdd1f6f3)
 
-# Implementación de backend con PostgreSQL y Azure SQL Database en Azure
+# Inicio
+👉 Clonamos este repositorio
+```git
+$ git clone https://github.com/CarlaMamaniChavez/starter.git
+```
+👉 Creamos nuestro entorno virtual y lo activamos
+```bash
+$ python -m venv venv
+$ source venv/bin/activate
+```
+👉 Instalamos las dependencias
+```bash
+$ pip install -r .\requirements.txt
+```
 ## Script para generar el secret_key 
-### secret_key_generator.py
+### 👉  Ejecutamos el script secret_key_generator.py
 ```python
 import secrets
 
@@ -21,6 +34,28 @@ def generate_django_secret_key(length=50):
 django_secret_key = generate_django_secret_key()
 print(django_secret_key)
 ```
+# Implementación de backend con SQLite 3 en el ambiente de desarrollo
+👉 Definimos el esquema de la base de datos
+```bash
+$ python .\manage.py makemigrations
+$ python .\manage.py migrate   
+```
+👉 Creamos el usuario administrador en la base de datos
+```bash
+$ python .\manage.py createsuperuser 
+```
+👉 Levantamos el proyecto
+```bash
+$ python .\manage.py runserver
+```
+👉 Ingestamos informacion
+🐕 Recordemos que un albergue posee varios perritos 🐕
+Para ingestar los datos te proporciono un par de ejemplos 🐕
+
+[CATALOGO  MASCOTAS.pdf](https://github.com/user-attachments/files/16056940/CATALOGO.MASCOTAS.pdf)
+
+# Implementación de backend con PostgreSQL y Azure SQL Database en Azure
+
 
 # Implementación de frontend con Azure App Services en Azure
 
