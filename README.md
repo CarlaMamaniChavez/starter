@@ -71,12 +71,33 @@ Para ingestar los datos te proporciono un par de ejemplos 🐕
 ![image](https://github.com/CarlaMamaniChavez/starter/assets/66276312/ccb9614a-afb3-4190-89b5-7bd43f28ac9c)
 
 🛰️ Agregamos a nuestro firewal nuestra IP Publica (Solo para fines de ejemplo) en caso de implementarlo en produccion establecer reglas de seguridad.
+
 ![image](https://github.com/CarlaMamaniChavez/starter/assets/66276312/f32c857c-7554-45a2-89cd-252fe19073e0)
 
 🛰️ Revisar y crear para posteriormente empezar con la implementación
 ![image](https://github.com/CarlaMamaniChavez/starter/assets/66276312/452fc6f2-9c5f-47ac-a7be-65b532bfd1b6)
 
+🛰️ Creamos una nueva base de datos en la instancia creada.
+![image](https://github.com/CarlaMamaniChavez/starter/assets/66276312/02b44316-903a-440f-b421-894bcd93259c)
+
 
 # Implementación de frontend con Azure App Services en Azure
 
 # Recusos Adicionales
+> - 🛩️[Documentación sobre instalacion de dependencias](https://www.freecodecamp.org/news/python-requirementstxt-explained/)
+> - 🛩️[Documentación de SQLite](https://www.sqlite.org/index.html)
+> - 🛩️[Documentación sobre Django - Migraciones](https://docs.djangoproject.com/en/5.0/topics/migrations/)
+> - 🛩️[Documentación sobre Azure Database for PostgreSQL](https://learn.microsoft.com/es-es/azure/postgresql/)
+> - 🛩️[Documentación sobre Azure SQL DataBase](https://learn.microsoft.com/es-es/azure/azure-sql/?view=azuresql)
+> - 🛩️[Documentación sobre Azure App Services](https://learn.microsoft.com/es-es/azure/app-service/)
+
+---
+
+Espero de todo corazon que pueda ser util toda esta información en tu vida profesional.
+
+**Hecho con 💚 Codigo Facilito by Carly** ☕
+
+
+___
+
+
