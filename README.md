@@ -79,13 +79,22 @@ Para ingestar los datos te proporciono un par de ejemplos 🐕
 
 🛰️ Creamos una nueva base de datos en la instancia creada.
 ![image](https://github.com/CarlaMamaniChavez/starter/assets/66276312/02b44316-903a-440f-b421-894bcd93259c)
-
+Posteriormente lo conectamos mediante el Azure CLI para obtener las credenciales. 
 
 # Implementación de frontend con Azure App Services en Azure
+💡 Creamos el servicio de Web App (Azure App Services)
+![image](https://github.com/CarlaMamaniChavez/starter/assets/66276312/9910bb32-e05e-4ad9-a8e0-b834bddd29cc)
+
+💡 Obtenemos el dominio personalizado
+![image](https://github.com/CarlaMamaniChavez/starter/assets/66276312/2af3af80-ef25-4e0e-a209-2392d58f309c)
+
+Y lo configuramos en Azure.py y Settings.py
+
 
 # Recusos Adicionales
 > - 🛩️[Documentación sobre instalacion de dependencias](https://www.freecodecamp.org/news/python-requirementstxt-explained/)
 > - 🛩️[Documentación de SQLite](https://www.sqlite.org/index.html)
+> - 🛩️[Documentación de Django Settings](https://docs.djangoproject.com/en/3.1/ref/settings/)
 > - 🛩️[Documentación sobre Django - Migraciones](https://docs.djangoproject.com/en/5.0/topics/migrations/)
 > - 🛩️[Documentación sobre Azure Database for PostgreSQL](https://learn.microsoft.com/es-es/azure/postgresql/)
 > - 🛩️[Documentación sobre Azure SQL DataBase](https://learn.microsoft.com/es-es/azure/azure-sql/?view=azuresql)
